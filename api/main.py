@@ -4,7 +4,7 @@ from api.s3 import router as s3_router
 
 
 
-app = FastAPI()
+app = FastAPI(root_path='/api')
 
 # test route
 
