@@ -17,8 +17,9 @@ setup(
         'pydantic',
         'requests',
         'sqlalchemy',
-        'psycopg2',
-        'loguru'
+        'psycopg2-binary',
+        'loguru',
+        'asyncpg'
     ],
     extras_require={
         'dev': ['pytest', 'pytest-cov']
